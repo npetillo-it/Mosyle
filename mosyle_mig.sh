@@ -28,5 +28,7 @@ sleep 20
 /usr/libexec/mdmclient dep nag
 sudo profiles renew -type enrollment
 sudo profiles -N
-#!/bin/bash
+
+
+echo "This is the users home folder name" "$HOME"
 
