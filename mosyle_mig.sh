@@ -32,3 +32,8 @@ sudo profiles -N
 
 echo "This is the users home folder name" "$HOME"
 
+echo "Removing MDM Script"
+
+
+rm "./$0"
+
