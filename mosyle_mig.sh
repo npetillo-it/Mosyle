@@ -1,7 +1,7 @@
 #!/bin/bash
 # Optional reconnect to WiFi after enrollment removal
 SSIDINFO="Translation 10 Jay"
-PASSWORDINFO="WeAreGr8"
+PASSWORDINFO=""
 # Removing JAMF MDM Profile
 echo "Removing MDM profile..."
 /usr/local/jamf/bin/jamf removeMdmProfile
